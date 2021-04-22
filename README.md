@@ -9,6 +9,9 @@ The extract sequence script was also updated as suggested by @alevchuk here: htt
 
 ## Usage
 
+### dependencies
+these tools require `wget` `HMMER3` and `blast+`
+
 ### git clone the repository & copy in your desired fasta file
 
 ```
@@ -17,7 +20,7 @@ chmod +x 00*
 cp my.fasta ./
 ```
 
-### download the Pfam database & prepare it - this step required HMMER 3
+### download the Pfam database & prepare it
 
 ```
 ./001-download-data
